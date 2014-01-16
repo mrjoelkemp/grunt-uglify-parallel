@@ -140,6 +140,10 @@ module.exports = function (grunt) {
                 }
 
                 // Minify files, warn and fail on error.
+                if (options.warnings === false) {
+                    options.compress = false;
+                }
+
                 var result;
                 try {
                     result = uglify.minify(src, f.dest, options);

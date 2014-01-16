@@ -31,7 +31,8 @@ module.exports = function (grunt) {
             },
             mangle: {},
             beautify: false,
-            report: false
+            report: false,
+            warnings: false
         });
 
         // Process banner.

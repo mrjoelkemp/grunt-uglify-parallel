@@ -1,0 +1,46 @@
+{
+    "name": "grunt-uglify-parallel",
+    "description": "parallel ulify for parallel",
+    "version": "0.0.1",
+    "homepage": "https://github.com/magicsky/grunt-uglify-parallel",
+    "author": {
+        "name": "magicsky",
+        "email": "garcia.relax@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/magicsky/grunt-uglify-parallel"
+    },
+    "bugs": {
+        "url": "https://github.com/magicsky/grunt-uglify-parallel/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/magicsky/grunt-uglify-parallel/blob/master/LICENSE-MIT"
+        }
+    ],
+    "engines": {
+        "node": ">= 0.8.0"
+    },
+    "scripts": {
+        "test": "grunt test"
+    },
+    "dependencies": {
+        "uglify-js": "~2.4.0",
+        "grunt-lib-contrib": "~0.6.1",
+        "chalk": "~0.4.0"
+    },
+    "devDependencies": {
+        "grunt-contrib-jshint": "~0.6.0",
+        "grunt-contrib-clean": "~0.4.0",
+        "grunt-contrib-nodeunit": "~0.2.0",
+        "grunt": "~0.4.2"
+    },
+    "peerDependencies": {
+        "grunt": "~0.4.2"
+    },
+    "keywords": [
+        "gruntplugin"
+    ]
+}

@@ -9,6 +9,8 @@
 module.exports = function (grunt) {
     'use strict';
 
+    var path = require('path');
+    var cluster = require("cluster");
     var contrib = require('grunt-lib-contrib').init(grunt);
     var uglify = require('./lib/uglify').init(grunt);
 

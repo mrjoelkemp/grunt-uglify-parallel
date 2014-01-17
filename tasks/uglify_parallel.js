@@ -144,7 +144,6 @@ module.exports = function (grunt) {
 
     grunt.registerMultiTask('uglify_parallel', 'parallel uglify for parallel', function () {
         // Merge task-specific and/or target-specific options with these defaults.
-        var done = this.async();
         var options = this.options({
             limit: require('os').cpus().length,
             banner: '',
